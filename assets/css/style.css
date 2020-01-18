@@ -1,0 +1,133 @@
+body {
+    height: 100%;
+    background-image: url(../images/background-brown-carpentry-326311.jpg);
+    padding-bottom: 500px;
+}
+
+hr {
+    color: black;
+    border-top: black, solid, 5px;
+    margin: 0px;
+}
+
+
+.nav {
+    background-color: white;
+    z-index: 20;
+    /* height: 59px; */
+    height: 8vh;
+    margin: 0px;
+}
+
+
+#headshot {
+    float: left;
+    clear: both;
+    padding: 5px;
+    height: 150px;
+    width: auto;
+}
+
+/* #bookImg {
+    height: 150px;
+    width: 150px;
+}
+
+#resumeImg {
+    height: 150px;
+    width: 150px;
+}
+
+#githubImg {
+    height: 150px;
+    width: 150px;
+}
+
+#linkedInImg {
+    height: 150px;
+    width: 150px;
+} */
+
+.portImg {
+    height: 150px;
+    width: 150px;
+}
+
+.container {
+    margin-top: 10vh;
+}
+
+h2 {
+    font-family: "jomolhari", serif;
+}
+
+.nav-link {
+    font-family: "jomolhari", serif;
+    font-size: 25px;
+    color: sienna;
+}
+
+.nav-link:hover {
+    color: olivedrab;
+    text-decoration: underline;
+}
+
+#title {
+    color: white;
+    background-color: rgb(100, 165, 75);
+    float: left;
+    font-family: "jomolhari", serif;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: 8vh;
+}
+
+h5, h4 {
+    font-family: "jomolhari", serif;
+    color: sienna;
+}
+
+.border {
+    padding: 10px
+}
+
+/* #portfolio-container {
+    width: 50vw;
+} */
+
+.row {
+    align-content: center;
+    width: 100%;
+}
+
+.relative {
+    align-content: center;
+}
+
+a:hover {
+    color: olivedrab;
+    text-decoration: underline;
+}
+
+footer {
+    align-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: -55vh;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.project-link {
+    color: sienna;
+}
+
+.demoImg {
+    width: 500px;
+    height: auto;
+}
